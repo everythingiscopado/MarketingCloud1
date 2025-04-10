@@ -1,0 +1,66 @@
+{
+    "id": 88619,
+    "customerKey": "dca9bece-d5e4-4e22-9be4-255d4aeabeb8",
+    "objectID": "562becf2-7906-45ad-8b3e-9c15695ce4f2",
+    "assetType": {
+        "id": 236,
+        "name": "packagedefinition",
+        "displayName": "packagedefinition"
+    },
+    "name": "My Definition - December 11, 2024 at 10:20:29 AM",
+    "owner": {
+        "id": 737362078,
+        "email": "acazares@copado.com",
+        "name": "Alberto Cazares",
+        "userId": "737362078"
+    },
+    "createdDate": "2024-12-11T04:21:23.87-06:00",
+    "createdBy": {
+        "id": 737362078,
+        "email": "acazares@copado.com",
+        "name": "Alberto Cazares",
+        "userId": "737362078"
+    },
+    "modifiedDate": "2024-12-11T04:22:39.473-06:00",
+    "modifiedBy": {
+        "id": 737362078,
+        "email": "acazares@copado.com",
+        "name": "Alberto Cazares",
+        "userId": "737362078"
+    },
+    "enterpriseId": 536001498,
+    "memberId": 536001498,
+    "status": {
+        "id": 1,
+        "name": "Draft"
+    },
+    "thumbnail": {
+        "thumbnailUrl": "/v1/assets/88619/thumbnail"
+    },
+    "category": {
+        "id": 9412,
+        "name": "Content Builder",
+        "parentId": 0
+    },
+    "availableViews": [],
+    "data": {
+        "info": {
+            "latestSnapshotVersion": 1
+        },
+        "entities": {
+            "assets": {},
+            "attributeGroups": {},
+            "automations": {},
+            "cloudPageCollections": {},
+            "dataExtensions": {},
+            "journeys": {
+                "88b81f55-02a7-4a73-8505-2b7995b0c603": {
+                    "name": "AlbertoTestJourney"
+                }
+            },
+            "journeyTemplates": {},
+            "sharedDataExtensions": {}
+        }
+    },
+    "modelVersion": 2
+}

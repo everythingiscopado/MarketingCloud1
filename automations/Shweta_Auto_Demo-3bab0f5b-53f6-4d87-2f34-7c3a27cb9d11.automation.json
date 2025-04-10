@@ -1,0 +1,56 @@
+{
+    "id": "fb08fe1b-736d-44ab-b762-3a183a001b0a",
+    "name": "Shweta_Auto_Demo",
+    "key": "3bab0f5b-53f6-4d87-2f34-7c3a27cb9d11",
+    "typeId": 2,
+    "type": "triggered",
+    "statusId": 1,
+    "status": "Building",
+    "categoryId": 9404,
+    "fileTrigger": {
+        "queueFiles": false,
+        "isPublished": false,
+        "fileNamePatternTypeId": 0,
+        "fileNamingPattern": "",
+        "folderLocationText": "DEFAULT\\",
+        "triggerActive": false
+    },
+    "steps": [
+        {
+            "id": "9dacc92f-45d0-42c0-ae2d-17e655ec8840",
+            "name": "",
+            "step": 1,
+            "activities": [
+                {
+                    "id": "80f5c777-fd46-4ff1-8edb-235fe161b9ee",
+                    "objectTypeId": 43,
+                    "displayOrder": 2
+                }
+            ]
+        },
+        {
+            "id": "83c3e622-24ad-4d46-8d51-a3284a161415",
+            "name": "",
+            "step": 2,
+            "activities": [
+                {
+                    "id": "a249db00-9e12-4923-b8c5-52f4d40858ef",
+                    "objectTypeId": 53,
+                    "displayOrder": 2
+                }
+            ]
+        },
+        {
+            "id": "d8d07927-86ac-4876-a62c-d6b9024562aa",
+            "name": "",
+            "step": 3,
+            "activities": [
+                {
+                    "id": "84cf34de-961f-4932-8654-df2d35534b5f",
+                    "objectTypeId": 42,
+                    "displayOrder": 2
+                }
+            ]
+        }
+    ]
+}

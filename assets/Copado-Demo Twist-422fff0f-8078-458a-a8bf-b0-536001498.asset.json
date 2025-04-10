@@ -1,0 +1,48 @@
+{
+    "id": 24518,
+    "customerKey": "422fff0f-8078-458a-a8bf-b0-536001498",
+    "objectID": "01bff9ed-2809-46aa-a8f5-2ae3097f615e",
+    "assetType": {
+        "id": 4,
+        "name": "template",
+        "displayName": "Template"
+    },
+    "name": "Copado-Demo Twist",
+    "owner": {
+        "id": 737166284,
+        "email": "",
+        "name": "Accenture SFMC DevTools Deployment Tool app user",
+        "userId": "737166284"
+    },
+    "createdDate": "2023-04-26T04:23:04.307-06:00",
+    "createdBy": {
+        "id": 737166284,
+        "email": "",
+        "name": "Accenture SFMC DevTools Deployment Tool app user",
+        "userId": "737166284"
+    },
+    "modifiedDate": "2025-02-18T04:17:59.54-06:00",
+    "modifiedBy": {
+        "id": 737367848,
+        "email": "tugce@ideabulut.com",
+        "name": "Tugce Sirin",
+        "userId": "737367848"
+    },
+    "enterpriseId": 536001498,
+    "memberId": 536001498,
+    "status": {
+        "id": 1,
+        "name": "Draft"
+    },
+    "thumbnail": {
+        "thumbnailUrl": "/v1/assets/24518/thumbnail"
+    },
+    "category": {
+        "id": 38780,
+        "name": "test",
+        "parentId": 9412
+    },
+    "content": "<!DOCTYPE html>\n<html lang=\"en\">\n\n    <head>\n        <meta charset=\"UTF-8\">\n        <title>Hello Victor!</title>\n    </head>\n\n    <body>\n        <h1>Hello Tugce!</h1>\n        <p>This is a simple paragraph for Marketing Cloud demo.</p>\n    </body>\n",
+    "availableViews": [],
+    "modelVersion": 2
+}

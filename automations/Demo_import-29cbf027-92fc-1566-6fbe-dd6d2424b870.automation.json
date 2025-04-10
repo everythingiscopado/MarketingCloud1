@@ -1,0 +1,46 @@
+{
+    "id": "7cd8ede9-024b-4ffa-98c6-3817df299314",
+    "name": "Demo_import",
+    "description": "",
+    "key": "29cbf027-92fc-1566-6fbe-dd6d2424b870",
+    "typeId": 2,
+    "type": "triggered",
+    "statusId": 7,
+    "status": "AwaitingTrigger",
+    "categoryId": 9404,
+    "lastRunTime": "2023-05-24T04:09:37.337",
+    "lastRunInstanceId": "e4fe7cf1-2554-40d5-b615-1c354167d960",
+    "fileTrigger": {
+        "queueFiles": false,
+        "isPublished": true,
+        "fileNamePatternTypeId": 0,
+        "fileNamingPattern": "",
+        "folderLocationText": "import\\",
+        "triggerActive": true
+    },
+    "steps": [
+        {
+            "id": "877a0c37-7ac4-4566-ad7c-79f6d84ac259",
+            "name": "",
+            "step": 1,
+            "activities": [
+                {
+                    "id": "93c3b442-922c-4fc6-ad8e-539892247dd9",
+                    "name": "Import_test1",
+                    "activityObjectId": "d9783190-e3e8-ed11-ba48-f40343e7eeb0",
+                    "objectTypeId": 43,
+                    "displayOrder": 2,
+                    "targetDataExtensions": [
+                        {
+                            "id": "ad087c2e-e3e8-ed11-ba48-f40343e7eeb0",
+                            "name": "Import_test",
+                            "key": "1256B77A-F0D4-44CD-B5E4-5F43A94DBE38",
+                            "description": "testing for demo jlee",
+                            "rowCount": 3
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "id": 90151,
+    "customerKey": "897c950e-3f4b-4808-946b-81c186f7120a",
+    "objectID": "bd393d25-a101-4da3-a48e-5c05ef6f0aa0",
+    "assetType": {
+        "id": 236,
+        "name": "packagedefinition",
+        "displayName": "packagedefinition"
+    },
+    "name": "My Definition - January 6, 2025 at 2:18:02 PM",
+    "owner": {
+        "id": 737367846,
+        "email": "hsharma@copado.com",
+        "name": "Himanshu Sharma",
+        "userId": "737367846"
+    },
+    "createdDate": "2025-01-06T08:22:39.47-06:00",
+    "createdBy": {
+        "id": 737367846,
+        "email": "hsharma@copado.com",
+        "name": "Himanshu Sharma",
+        "userId": "737367846"
+    },
+    "modifiedDate": "2025-01-06T08:23:03.15-06:00",
+    "modifiedBy": {
+        "id": 737367846,
+        "email": "hsharma@copado.com",
+        "name": "Himanshu Sharma",
+        "userId": "737367846"
+    },
+    "enterpriseId": 536001498,
+    "memberId": 536001498,
+    "status": {
+        "id": 1,
+        "name": "Draft"
+    },
+    "thumbnail": {
+        "thumbnailUrl": "/v1/assets/90151/thumbnail"
+    },
+    "category": {
+        "id": 9412,
+        "name": "Content Builder",
+        "parentId": 0
+    },
+    "availableViews": [],
+    "data": {
+        "info": {
+            "latestSnapshotVersion": 1
+        },
+        "entities": {
+            "assets": {},
+            "attributeGroups": {},
+            "automations": {},
+            "cloudPageCollections": {},
+            "dataExtensions": {},
+            "journeys": {
+                "88b81f55-02a7-4a73-8505-2b7995b0c603": {
+                    "name": "AlbertoTestJourney"
+                }
+            },
+            "journeyTemplates": {},
+            "sharedDataExtensions": {}
+        }
+    },
+    "modelVersion": 2
+}

@@ -1,0 +1,153 @@
+{
+    "id": 25224,
+    "customerKey": "3341a065-2bb7-4786-95e0-03-536001498",
+    "objectID": "78d2fcb4-34a3-4c0b-8948-1a90e05e7987",
+    "contentType": "application/vnd.etmc.email.Message; kind=paste",
+    "assetType": {
+        "id": 208,
+        "name": "htmlemail",
+        "displayName": "HTML Email"
+    },
+    "name": "Demo_Shweta",
+    "owner": {
+        "id": 737166284,
+        "email": "",
+        "name": "Accenture SFMC DevTools Deployment Tool app user",
+        "userId": "737166284"
+    },
+    "createdDate": "2023-05-02T02:43:05.213-06:00",
+    "createdBy": {
+        "id": 737166284,
+        "email": "",
+        "name": "Accenture SFMC DevTools Deployment Tool app user",
+        "userId": "737166284"
+    },
+    "modifiedDate": "2023-06-07T08:38:12.66-06:00",
+    "modifiedBy": {
+        "id": 737166284,
+        "name": "Accenture SFMC DevTools Deployment Tool app user",
+        "userId": "737166284"
+    },
+    "enterpriseId": 536001498,
+    "memberId": 536001498,
+    "status": {
+        "id": 1,
+        "name": "Draft"
+    },
+    "thumbnail": {
+        "thumbnailUrl": "/v1/assets/25224/thumbnail"
+    },
+    "category": {
+        "id": 9412
+    },
+    "views": {
+        "subjectline": {
+            "contentType": "application/vnd.etmc.email.View; kind=subjectline",
+            "content": "Hello Demo",
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {}
+                }
+            },
+            "modelVersion": 2
+        },
+        "preheader": {
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {}
+                }
+            },
+            "modelVersion": 2
+        },
+        "html": {
+            "content": "<!DOCTYPE html>\n<html>\n    <body>\n        Hello Demo World1!\n    </body>\n</html>\n",
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {}
+                }
+            },
+            "modelVersion": 2
+        },
+        "text": {
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": "html"
+                    }
+                }
+            },
+            "generateFrom": "html",
+            "modelVersion": 2
+        },
+        "viewAsAWebPage": {
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {}
+                }
+            },
+            "modelVersion": 2
+        },
+        "subscriptioncenter": {
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {}
+                }
+            },
+            "modelVersion": 2
+        },
+        "forwardHTML": {
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {}
+                }
+            },
+            "modelVersion": 2
+        },
+        "forwardText": {
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {}
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "subjectline",
+        "preheader",
+        "html",
+        "text",
+        "viewAsAWebPage",
+        "subscriptioncenter",
+        "forwardHTML",
+        "forwardText"
+    ],
+    "data": {
+        "email": {
+            "options": {
+                "characterEncoding": "utf-8"
+            },
+            "legacy": {
+                "legacyId": 6138,
+                "legacyKey": "3341a065-2bb7-4786-95e0-03-536001498",
+                "legacyType": "email",
+                "legacyCategoryId": 9397
+            }
+        }
+    },
+    "legacyData": {
+        "legacyId": 6138,
+        "legacyKey": "3341a065-2bb7-4786-95e0-03-536001498",
+        "legacyType": "email",
+        "legacyCategoryId": 9397
+    },
+    "modelVersion": 2
+}

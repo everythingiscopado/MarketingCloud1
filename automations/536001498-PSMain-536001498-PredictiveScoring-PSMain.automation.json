@@ -1,0 +1,577 @@
+{
+    "id": "f26a24ca-bae9-4cf7-b99e-c54bf960f6c5",
+    "name": "536001498-PSMain",
+    "description": "This automation sends CURRENT data to the Data Scientists for scoring and is an important componentof the Einstein Engagement Scoring application.",
+    "key": "536001498-PredictiveScoring-PSMain",
+    "typeId": 1,
+    "type": "scheduled",
+    "statusId": 6,
+    "status": "Scheduled",
+    "categoryId": 9414,
+    "lastRunTime": "2025-04-09T13:33:01.063",
+    "lastRunInstanceId": "b7f11032-3f80-41af-9123-7c612ec7e48b",
+    "schedule": {
+        "id": "bebe9858-89ab-476a-804d-cff1356feac5",
+        "typeId": 2,
+        "startDate": "2022-04-13T13:33:40.873",
+        "endDate": "2052-04-11T13:33:40",
+        "scheduledTime": "2025-04-10T13:33:00",
+        "rangeTypeId": 0,
+        "occurrences": 10957,
+        "pattern": "<Pattern><PatternType>0</PatternType><HourInterval>24</HourInterval></Pattern>",
+        "icalRecur": "FREQ=HOURLY;COUNT=10957;INTERVAL=24",
+        "timezoneName": "Central Standard Time (no DST)",
+        "scheduleStatus": "active",
+        "timezoneId": 1
+    },
+    "steps": [
+        {
+            "id": "386d43e5-27e1-4e04-9f19-dd3a63b28399",
+            "name": "Predictive Scoring extract-upload task #01",
+            "description": "Auto generated step task",
+            "step": 1,
+            "activities": [
+                {
+                    "id": "11148fe3-54f3-4cbc-8c8c-3ed53b67b083",
+                    "name": "Extract-Upload stats.Bounce into S3",
+                    "activityObjectId": "0bef06f5-9a9b-42ed-bbed-6ef0298fefa0",
+                    "objectTypeId": 425,
+                    "displayOrder": 1
+                },
+                {
+                    "id": "97e822b1-c7f6-4b2c-80d8-be6c66cbc8df",
+                    "name": "Extract-Upload stats.BounceDecrementQueue into S3",
+                    "activityObjectId": "df6b7414-6772-412c-b0cb-0f8db5a3909f",
+                    "objectTypeId": 425,
+                    "displayOrder": 2
+                },
+                {
+                    "id": "965edfc8-f961-4d38-b662-6a4b44872b26",
+                    "name": "Extract-Upload stats.Click into S3",
+                    "activityObjectId": "cccdebce-fce0-4f79-b78d-fc23ee489c55",
+                    "objectTypeId": 425,
+                    "displayOrder": 3
+                },
+                {
+                    "id": "19da3a53-631c-41bf-9ab7-ea5b47ce20ce",
+                    "name": "Extract-Upload stats.Complaint into S3",
+                    "activityObjectId": "525411c8-cd46-4bc5-90dc-791759095016",
+                    "objectTypeId": 425,
+                    "displayOrder": 4
+                },
+                {
+                    "id": "f88cfdab-9f38-4805-acdc-9179608a3ccc",
+                    "name": "Extract-Upload stats.Conversion into S3",
+                    "activityObjectId": "67da922a-bff9-4b36-8430-6f08aad21899",
+                    "objectTypeId": 425,
+                    "displayOrder": 5
+                },
+                {
+                    "id": "6137f4a1-b0b4-435d-a0bd-391a505bcd4f",
+                    "name": "Extract-Upload stats.Open into S3",
+                    "activityObjectId": "194a3a72-b583-442c-bb73-ebb279737588",
+                    "objectTypeId": 425,
+                    "displayOrder": 6
+                },
+                {
+                    "id": "0b479e5e-4803-4a25-a69f-c235a84b26c9",
+                    "name": "Extract-Upload stats.Unsubscribe into S3",
+                    "activityObjectId": "1d18ce0b-e040-4c8d-8347-b4a5600b2875",
+                    "objectTypeId": 425,
+                    "displayOrder": 7
+                }
+            ]
+        },
+        {
+            "id": "911c3933-6aba-4a2c-83a7-d3d334a48cda",
+            "name": "Predictive Scoring extract-upload task #02",
+            "description": "Auto generated step task",
+            "step": 2,
+            "activities": [
+                {
+                    "id": "e1f12700-40b1-46fa-9ed6-644af5c89201",
+                    "name": "Extract-Upload Stats.RefererEmailClient into S3",
+                    "activityObjectId": "0f8eb750-e964-42ac-8782-6e67ac4e8492",
+                    "objectTypeId": 425,
+                    "displayOrder": 1
+                },
+                {
+                    "id": "ce85b22a-f192-4b78-8712-944cb38d8a1c",
+                    "name": "Extract-Upload stats.Send into S3",
+                    "activityObjectId": "c1eca727-a855-421a-bef8-75a16406fb52",
+                    "objectTypeId": 425,
+                    "displayOrder": 2
+                },
+                {
+                    "id": "a5f684db-9eeb-4e38-b118-aa56f9a8ae6f",
+                    "name": "Extract-Upload Stats.UserAgentApplication into S3",
+                    "activityObjectId": "6bb47508-9b8b-4f27-a004-eb72bf304456",
+                    "objectTypeId": 425,
+                    "displayOrder": 3
+                },
+                {
+                    "id": "96c4d31e-b4e7-4525-ad4a-31fddd8c717a",
+                    "name": "Extract-Upload Stats.UserAgentDevice into S3",
+                    "activityObjectId": "8450f328-eae9-4351-802d-a5df659d3996",
+                    "objectTypeId": 425,
+                    "displayOrder": 4
+                },
+                {
+                    "id": "6f74c913-3358-4821-bf5b-fb9cf201015d",
+                    "name": "Extract-Upload Stats.UserAgentEmailClient into S3",
+                    "activityObjectId": "8d9ab95d-9574-4b30-91d3-035195a1f435",
+                    "objectTypeId": 425,
+                    "displayOrder": 5
+                },
+                {
+                    "id": "2b00e64a-ee07-45ce-b468-6944b0a88cad",
+                    "name": "Extract-Upload Stats.UserAgentOperatingSystem into S3",
+                    "activityObjectId": "16269740-8ea2-4afc-a12d-f490c5dabe22",
+                    "objectTypeId": 425,
+                    "displayOrder": 6
+                }
+            ]
+        },
+        {
+            "id": "71abf6da-5f6d-459f-b0ce-b24fcb14641f",
+            "name": "Predictive Scoring extract-upload task #03",
+            "description": "Auto generated step task",
+            "step": 3,
+            "activities": [
+                {
+                    "id": "254d6728-e084-4a7f-aca6-b215c3e55769",
+                    "name": "Extract-Upload C536001498._MobileAddress into S3",
+                    "activityObjectId": "4fabcd7c-5094-4ee8-8076-70b0befb62a6",
+                    "objectTypeId": 425,
+                    "displayOrder": 1
+                },
+                {
+                    "id": "59b5541c-8b2b-4d2d-9b09-3f3b0077ce92",
+                    "name": "Extract-Upload C536001498._MobileMessageTracking into S3",
+                    "activityObjectId": "34f28fe5-85e9-4120-a268-6bc17df93850",
+                    "objectTypeId": 425,
+                    "displayOrder": 2
+                },
+                {
+                    "id": "f8c26bf7-d196-470c-be78-d21c76c2401c",
+                    "name": "Extract-Upload C536001498._PushTag into S3",
+                    "activityObjectId": "077e6735-c53f-473f-bca8-6064f9ed6b18",
+                    "objectTypeId": 425,
+                    "displayOrder": 3
+                },
+                {
+                    "id": "8609e16e-3e91-4404-84e7-62f6ea264b21",
+                    "name": "Extract-Upload dbo.Asset into S3",
+                    "activityObjectId": "ac14a296-2fe8-4607-a1fe-e5e3c5ce84b7",
+                    "objectTypeId": 425,
+                    "displayOrder": 4
+                },
+                {
+                    "id": "7f0f5f61-10e1-47f5-8493-c447734d4ec1",
+                    "name": "Extract-Upload dbo.PushApplicationConfig into S3",
+                    "activityObjectId": "542defff-42d9-4f80-adb3-342a8683bb20",
+                    "objectTypeId": 425,
+                    "displayOrder": 5
+                }
+            ]
+        },
+        {
+            "id": "fa951ab7-8b6c-4d57-80fb-03a0df8eda66",
+            "name": "Predictive Scoring extract-upload task #04",
+            "description": "Auto generated step task",
+            "step": 4,
+            "activities": [
+                {
+                    "id": "7f211074-ce07-4029-8964-61ed29f654a8",
+                    "name": "Extract-Upload C536001498.PSConfig into S3",
+                    "activityObjectId": "27bf7e72-d3c5-4a5a-b668-ba23d57157fb",
+                    "objectTypeId": 425,
+                    "displayOrder": 1
+                },
+                {
+                    "id": "c1b93985-e527-4356-a6a8-05945ea02efe",
+                    "name": "Extract-Upload dbo.ProgramActivityInstance into S3",
+                    "activityObjectId": "3d5e15e4-08d2-4a06-911f-01bbce680afb",
+                    "objectTypeId": 425,
+                    "displayOrder": 2
+                },
+                {
+                    "id": "34ec5ade-630c-45ae-821c-b5f040a4d5d8",
+                    "name": "Extract-Upload dbo.ProgramInstance into S3",
+                    "activityObjectId": "0c0bf381-abbf-4778-8311-3e0ee78b7b37",
+                    "objectTypeId": 425,
+                    "displayOrder": 3
+                },
+                {
+                    "id": "0ff7962a-96d0-425f-991a-868ab63bc7db",
+                    "name": "Extract-Upload InteractionStudio.Activity into S3",
+                    "activityObjectId": "c59b01d4-ff38-4081-9c58-a667dafa35d4",
+                    "objectTypeId": 425,
+                    "displayOrder": 4
+                },
+                {
+                    "id": "81ec0aa3-f6f4-4ae4-917e-cf32643e896a",
+                    "name": "Extract-Upload InteractionStudio.DefinitionInfo into S3",
+                    "activityObjectId": "4bf788d0-5da0-4e46-8d14-c440cad95c8d",
+                    "objectTypeId": 425,
+                    "displayOrder": 5
+                },
+                {
+                    "id": "3c068dbe-27fb-4bff-b9d3-3c6a62fac702",
+                    "name": "Extract-Upload InteractionStudio.EventDefinition into S3",
+                    "activityObjectId": "740e44f1-6eb6-41c5-8a94-8bd3b2d04a81",
+                    "objectTypeId": 425,
+                    "displayOrder": 6
+                },
+                {
+                    "id": "82ae4c7b-ede2-47ca-9e97-6842a6fa1955",
+                    "name": "Extract-Upload InteractionStudio.EventInstance into S3",
+                    "activityObjectId": "dc8a1fd8-8a27-4250-a920-f3c1fbb16335",
+                    "objectTypeId": 425,
+                    "displayOrder": 7
+                }
+            ]
+        },
+        {
+            "id": "9f2e91e6-e6a3-4272-8481-eb2d418cde7e",
+            "name": "Predictive Scoring extract-upload task #05",
+            "description": "Auto generated step task",
+            "step": 5,
+            "activities": [
+                {
+                    "id": "0cbc0108-1342-42de-a01d-1860a434bc5c",
+                    "name": "Extract-Upload C536001498._MobileMessage into S3",
+                    "activityObjectId": "c2c63b49-3d0e-4870-9c97-0db6d3896a7e",
+                    "objectTypeId": 425,
+                    "displayOrder": 1
+                },
+                {
+                    "id": "d2104532-9fe1-43e1-a788-38c20561a140",
+                    "name": "Extract-Upload dbo.ABTestSend into S3",
+                    "activityObjectId": "beaee520-7609-409a-8f08-4cec35be8f5b",
+                    "objectTypeId": 425,
+                    "displayOrder": 2
+                },
+                {
+                    "id": "e47f70f6-b9ce-46b3-b880-666ba9bc6905",
+                    "name": "Extract-Upload dbo.ABTestSendJob into S3",
+                    "activityObjectId": "bf29a227-4a51-4c5a-bd12-1db5468a2359",
+                    "objectTypeId": 425,
+                    "displayOrder": 3
+                },
+                {
+                    "id": "361e33ff-6835-415d-9c2d-f1f806a88e88",
+                    "name": "Extract-Upload dbo.CampaignAsset into S3",
+                    "activityObjectId": "6fd442c6-2112-4d2b-9bb3-3cddab117f2d",
+                    "objectTypeId": 425,
+                    "displayOrder": 4
+                },
+                {
+                    "id": "15c4e696-9b12-4a15-bacb-53b02e67d0d8",
+                    "name": "Extract-Upload dbo.CampaignAssetType into S3",
+                    "activityObjectId": "b36f6577-7a01-4cb5-89af-2ed87920eb03",
+                    "objectTypeId": 425,
+                    "displayOrder": 5
+                },
+                {
+                    "id": "f30813e6-b7a2-4116-bece-aa64e957bfc1",
+                    "name": "Extract-Upload dbo.CustomObject into S3",
+                    "activityObjectId": "4c5bced4-bdea-4744-b9b0-648e3619b063",
+                    "objectTypeId": 425,
+                    "displayOrder": 6
+                },
+                {
+                    "id": "b2efd0a1-a7b6-4815-8411-2334bb98e201",
+                    "name": "Extract-Upload dbo.JobCampaignDefinition into S3",
+                    "activityObjectId": "fcf965df-50b3-4ef3-b90e-b186af9ecfa0",
+                    "objectTypeId": 425,
+                    "displayOrder": 7
+                },
+                {
+                    "id": "278de906-4fe7-4b7d-94d4-a833b243ff96",
+                    "name": "Extract-Upload dbo.Program into S3",
+                    "activityObjectId": "da6f3794-bb56-4dd1-8e08-dcdfdc771806",
+                    "objectTypeId": 425,
+                    "displayOrder": 8
+                },
+                {
+                    "id": "1005c9f7-e0f2-4b53-a171-5616c1a0c2a8",
+                    "name": "Extract-Upload dbo.SendGroup into S3",
+                    "activityObjectId": "d354f9f7-4e68-4ae9-8eda-5daee68c4482",
+                    "objectTypeId": 425,
+                    "displayOrder": 9
+                },
+                {
+                    "id": "db297efd-b94a-43e4-a50a-5fbf902d246f",
+                    "name": "Extract-Upload dbo.SendJob into S3",
+                    "activityObjectId": "5da339a5-b2e6-40ff-9230-52838c9d3fb4",
+                    "objectTypeId": 425,
+                    "displayOrder": 10
+                },
+                {
+                    "id": "172c1911-5b7e-41e3-90ef-ff2ae0ac039d",
+                    "name": "Extract-Upload dbo.SimpleTag into S3",
+                    "activityObjectId": "dc775d4c-a6eb-489f-8449-fba46bd60f05",
+                    "objectTypeId": 425,
+                    "displayOrder": 11
+                },
+                {
+                    "id": "d403064b-ebf2-4e1a-9ffe-6fda774be89f",
+                    "name": "Extract-Upload dbo.SimpleTagObject into S3",
+                    "activityObjectId": "f33770c9-602a-4a4c-bdc0-2c6294550305",
+                    "objectTypeId": 425,
+                    "displayOrder": 12
+                },
+                {
+                    "id": "6d6bdfef-cc05-4985-bb72-300fdb1a6a9d",
+                    "name": "Extract-Upload dbo.SimpleTagObjectType into S3",
+                    "activityObjectId": "4ecf5774-67a8-4e6b-8cab-250faa64e290",
+                    "objectTypeId": 425,
+                    "displayOrder": 13
+                },
+                {
+                    "id": "bd6ff7a1-0be5-484b-a399-f32608034d69",
+                    "name": "Extract-Upload dbo.SourceAddress into S3",
+                    "activityObjectId": "82d19dda-efa5-40ab-80e3-a3aab4bcff1e",
+                    "objectTypeId": 425,
+                    "displayOrder": 14
+                },
+                {
+                    "id": "197b5612-67e5-44c5-999b-3f15c9997c42",
+                    "name": "Extract-Upload dbo.tblJobs_Surveys into S3",
+                    "activityObjectId": "db54e312-108e-4af5-a4c7-825ceb19bdc1",
+                    "objectTypeId": 425,
+                    "displayOrder": 15
+                },
+                {
+                    "id": "1fc62b69-1585-4439-8189-4e4968581456",
+                    "name": "Extract-Upload dbo.tblJobSubscriberBatch into S3",
+                    "activityObjectId": "efc0a8d7-7d33-4ded-9935-6bbf92947f5c",
+                    "objectTypeId": 425,
+                    "displayOrder": 16
+                },
+                {
+                    "id": "43479950-72f1-4342-95bd-c93fb9a4ac9f",
+                    "name": "Extract-Upload dbo.tblSurveyAnswers into S3",
+                    "activityObjectId": "101f73e0-4079-43fb-ad83-f627c9e0b371",
+                    "objectTypeId": 425,
+                    "displayOrder": 17
+                },
+                {
+                    "id": "3d694b46-eb14-4028-b7df-4425ac82676f",
+                    "name": "Extract-Upload dbo.TriggeredSendJob into S3",
+                    "activityObjectId": "ca0a6174-f063-4ce1-8e2c-12d832d0dc6c",
+                    "objectTypeId": 425,
+                    "displayOrder": 18
+                },
+                {
+                    "id": "a6978250-8e7c-4c78-964c-6a3cf2aacab9",
+                    "name": "Extract-Upload InteractionStudio.Definition into S3",
+                    "activityObjectId": "b8c3487f-6f59-4960-869e-47adec823546",
+                    "objectTypeId": 425,
+                    "displayOrder": 19
+                }
+            ]
+        },
+        {
+            "id": "13c00c1c-fba5-484a-aa11-0262ddb2c60b",
+            "name": "Predictive Scoring extract-upload task #06",
+            "description": "Auto generated step task",
+            "step": 6,
+            "activities": [
+                {
+                    "id": "39a26497-f965-485c-83cd-08c081f4b6d6",
+                    "name": "Extract-Upload C536001498.SmsMemberSharedShortCode_Config into S3",
+                    "activityObjectId": "7b88756b-d4c2-4c39-a9c0-e17583f62ac0",
+                    "objectTypeId": 425,
+                    "displayOrder": 1
+                },
+                {
+                    "id": "262a7e57-756f-4adf-8d12-4aabc247dfe8",
+                    "name": "Extract-Upload C536001498.SmsMemberShortCodeDistinct into S3",
+                    "activityObjectId": "fa34815f-1cb1-4a40-b301-34ce77984390",
+                    "objectTypeId": 425,
+                    "displayOrder": 2
+                },
+                {
+                    "id": "f8556d7c-d18e-4497-8de9-cb48a9c22bac",
+                    "name": "Extract-Upload dbo.ABTestSendContent into S3",
+                    "activityObjectId": "0c742afc-598f-4004-af70-f2a3c2ddd178",
+                    "objectTypeId": 425,
+                    "displayOrder": 3
+                },
+                {
+                    "id": "e74e033c-902a-440f-a439-d36ac0b274ae",
+                    "name": "Extract-Upload dbo.ABTestSendType into S3",
+                    "activityObjectId": "94c53d4c-339a-459e-97c3-67f3f29beb1f",
+                    "objectTypeId": 425,
+                    "displayOrder": 4
+                },
+                {
+                    "id": "4c8eef85-dc29-475d-aa4e-2c9aa7111425",
+                    "name": "Extract-Upload dbo.CampaignDefinition into S3",
+                    "activityObjectId": "4da2df4c-041c-40d5-b3e7-f202ff01e0b2",
+                    "objectTypeId": 425,
+                    "displayOrder": 5
+                },
+                {
+                    "id": "61de957d-8df1-4a4e-8a2a-88cafa16b2a0",
+                    "name": "Extract-Upload dbo.ImpressionRegion into S3",
+                    "activityObjectId": "c3783f92-3b61-436b-8bad-a7b90b2c728e",
+                    "objectTypeId": 425,
+                    "displayOrder": 6
+                },
+                {
+                    "id": "53f5c169-6066-4731-ad7a-7aae8f4b087c",
+                    "name": "Extract-Upload dbo.JobImpressionRegion into S3",
+                    "activityObjectId": "a87331ff-fb3f-4528-95c3-85407c4db2fe",
+                    "objectTypeId": 425,
+                    "displayOrder": 7
+                },
+                {
+                    "id": "bf1c2399-03c7-485b-8ab7-411f437d1f41",
+                    "name": "Extract-Upload dbo.Members_ into S3",
+                    "activityObjectId": "d78dc0af-b0d4-4884-afad-6f9e75cfa315",
+                    "objectTypeId": 425,
+                    "displayOrder": 8
+                },
+                {
+                    "id": "1554cf33-6882-4221-acdb-25c1cefa9bd5",
+                    "name": "Extract-Upload dbo.SendSplit into S3",
+                    "activityObjectId": "59b48236-04b9-4174-b891-f3d57d83dd85",
+                    "objectTypeId": 425,
+                    "displayOrder": 9
+                },
+                {
+                    "id": "38816e22-a9c9-4f96-9b12-157f2905f843",
+                    "name": "Extract-Upload dbo.Subscriber into S3",
+                    "activityObjectId": "422030f5-8fa9-4b70-aa76-620b9c8817b0",
+                    "objectTypeId": 425,
+                    "displayOrder": 10
+                },
+                {
+                    "id": "b90c4082-a1d6-4e74-bda4-b8733e94b45e",
+                    "name": "Extract-Upload dbo.tblJobs into S3",
+                    "activityObjectId": "f1976490-bbe9-4017-a513-37287aeba968",
+                    "objectTypeId": 425,
+                    "displayOrder": 11
+                },
+                {
+                    "id": "849c4ff2-4ab2-4b4c-9474-86290771a2fd",
+                    "name": "Extract-Upload dbo.tblJobs_Lists into S3",
+                    "activityObjectId": "cd4a3d0f-850d-4229-afcc-50f5ee9c8cb1",
+                    "objectTypeId": 425,
+                    "displayOrder": 12
+                },
+                {
+                    "id": "55c33739-ad77-4df6-8a86-b6d3b42fecbe",
+                    "name": "Extract-Upload dbo.tblJobs_URLs into S3",
+                    "activityObjectId": "106b26f4-df28-49d4-8cd2-d43f336b2ccc",
+                    "objectTypeId": 425,
+                    "displayOrder": 13
+                },
+                {
+                    "id": "4cfb586a-d43b-414f-bd99-80b206b1d24d",
+                    "name": "Extract-Upload dbo.tblSurveyQuestions into S3",
+                    "activityObjectId": "6adae783-5299-4fcb-8e89-1d9917179c3d",
+                    "objectTypeId": 425,
+                    "displayOrder": 14
+                }
+            ]
+        },
+        {
+            "id": "39bc797b-3984-46a2-80af-edb7cb103097",
+            "name": "Predictive Scoring extract-upload task #07",
+            "description": "Auto generated step task",
+            "step": 7,
+            "activities": [
+                {
+                    "id": "cb21d9a4-8ce0-4151-bfac-9a7b3c163f73",
+                    "name": "Extract-Upload dbo.EmailSendDefinition into S3",
+                    "activityObjectId": "18ebff9d-fc99-4f96-85ff-077d041c14de",
+                    "objectTypeId": 425,
+                    "displayOrder": 1
+                },
+                {
+                    "id": "2b300400-80d4-4467-9551-578cf34fde0c",
+                    "name": "Extract-Upload dbo.Send into S3",
+                    "activityObjectId": "8c526cc7-de4c-4671-91a4-8f7b109020ef",
+                    "objectTypeId": 425,
+                    "displayOrder": 2
+                },
+                {
+                    "id": "825b87db-39db-4b6f-bd85-1af2d5b91e70",
+                    "name": "Extract-Upload dbo.tblEmails into S3",
+                    "activityObjectId": "e110ab2c-296b-415e-a9a8-2a4556c3fe7f",
+                    "objectTypeId": 425,
+                    "displayOrder": 3
+                },
+                {
+                    "id": "dd9ff5a9-75dd-4fe5-96e5-16515e341a9e",
+                    "name": "Extract-Upload dbo.tblLists into S3",
+                    "activityObjectId": "99685a3a-5527-417e-9ef4-2246d411f45c",
+                    "objectTypeId": 425,
+                    "displayOrder": 4
+                }
+            ]
+        },
+        {
+            "id": "b13cc59f-5e5b-4144-8549-51bd79c7ffff",
+            "name": "Predictive Scoring extract-upload task #08",
+            "description": "Auto generated step task",
+            "step": 8,
+            "activities": [
+                {
+                    "id": "7c153a03-d4a1-43e6-bba9-fbd2a28e0d06",
+                    "name": "Extract-Upload dbo.EnterpriseMember into S3",
+                    "activityObjectId": "5a9c2dac-7c4b-4fed-8585-4b54849a51d2",
+                    "objectTypeId": 425,
+                    "displayOrder": 1
+                },
+                {
+                    "id": "71db29cb-fe41-4361-9178-5ebbb613c484",
+                    "name": "Extract-Upload dbo.MemberTimeZone into S3",
+                    "activityObjectId": "a73a11b1-3c67-4d05-a577-d7394a4f0d93",
+                    "objectTypeId": 425,
+                    "displayOrder": 2
+                },
+                {
+                    "id": "164b0cd0-bf89-4a4b-94c5-df2d01d7094d",
+                    "name": "Extract-Upload dbo.SendDefType into S3",
+                    "activityObjectId": "d4904c1a-e480-4561-8d24-4deabb4cdb16",
+                    "objectTypeId": 425,
+                    "displayOrder": 3
+                },
+                {
+                    "id": "d32948c7-8dc7-4bf0-8c30-dc3907cd6201",
+                    "name": "Extract-Upload dbo.tblMembers into S3",
+                    "activityObjectId": "ddf65621-5018-4dfb-b546-a2f9a525dd5d",
+                    "objectTypeId": 425,
+                    "displayOrder": 4
+                },
+                {
+                    "id": "9ff77bb8-c9a2-42cb-a3b9-f07e134b8a03",
+                    "name": "Extract-Upload dbo.TimeZoneDetail into S3",
+                    "activityObjectId": "c37ac5d5-67f7-4627-8589-1d27047c731a",
+                    "objectTypeId": 425,
+                    "displayOrder": 5
+                }
+            ]
+        },
+        {
+            "id": "d209a306-c112-47c3-927a-9f61cfab34f4",
+            "name": "Predictive Scoring extract-upload task #09",
+            "description": "Auto generated step task",
+            "step": 9,
+            "activities": [
+                {
+                    "id": "6697e105-afb8-412b-b622-c7f701a2a388",
+                    "name": "Extract-Upload C536001498.VPS_ExportDone into S3",
+                    "activityObjectId": "0b10696b-fc68-40d3-b815-5a02c5e7b0e8",
+                    "objectTypeId": 425,
+                    "displayOrder": 1
+                }
+            ]
+        }
+    ]
+}
