@@ -1,0 +1,24 @@
+{
+    "name": "Upcoming engagement campaign (SE Demo)",
+    "description": "",
+    "key": "1cff33e4-72f9-3650-14b0-4a135698453e",
+    "typeId": 1,
+    "type": "scheduled",
+    "statusId": 1,
+    "status": "Building",
+    "categoryId": 10796,
+    "schedule": {
+        "id": "0c66f003-d54c-4d71-9ef3-aff1b2f2c187",
+        "typeId": 3,
+        "startDate": "2025-04-14T10:41:00",
+        "endDate": "2025-04-14T10:41:00",
+        "scheduledTime": "0001-01-01T06:00:00",
+        "rangeTypeId": 0,
+        "occurrences": 1,
+        "pattern": "<Pattern><PatternType>0</PatternType><DayInterval>1</DayInterval></Pattern>",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "GMT Standard Time",
+        "scheduleStatus": "active",
+        "timezoneId": 3
+    }
+}
