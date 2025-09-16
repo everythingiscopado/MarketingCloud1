@@ -1,0 +1,50 @@
+{
+    "id": "83276320-2016-f011-ba64-f40343e7f1b8",
+    "name": "New Data Extension - SE Demo",
+    "key": "3133AB49-503B-4155-B085-A2026BAE300E",
+    "description": "",
+    "isActive": true,
+    "isSendable": false,
+    "isTestable": false,
+    "status": 0,
+    "categoryId": 10790,
+    "ownerId": 737164827,
+    "isObjectDeletable": true,
+    "isFieldAdditionAllowed": true,
+    "isFieldModificationAllowed": true,
+    "createdDate": "2025-04-10T09:26:10",
+    "createdById": 737164827,
+    "createdByName": "Jeremy Lee",
+    "modifiedDate": "2025-04-10T09:26:10",
+    "modifiedById": 737164827,
+    "modifiedByName": "Jeremy Lee",
+    "ownerName": "Jeremy Lee",
+    "rowCount": 0,
+    "dataRetentionProperties": {
+        "isDeleteAtEndOfRetentionPeriod": false,
+        "isRowBasedRetention": false,
+        "isResetRetentionPeriodOnImport": false,
+        "rowBasedThreshold": 1000000000
+    },
+    "fieldCount": 1,
+    "fields": [
+        {
+            "name": "Special notes",
+            "id": "74b1e1f9-9b00-4fa3-8acc-6409e9d0d93d",
+            "type": "Text",
+            "maskType": "None",
+            "storageType": "Plain",
+            "length": 50,
+            "description": "",
+            "ordinal": 0,
+            "isNullable": false,
+            "isPrimaryKey": true,
+            "isTemplateField": false,
+            "isInheritable": false,
+            "isOverridable": false,
+            "isHidden": false,
+            "isReadOnly": false,
+            "mustOverride": false
+        }
+    ]
+}
