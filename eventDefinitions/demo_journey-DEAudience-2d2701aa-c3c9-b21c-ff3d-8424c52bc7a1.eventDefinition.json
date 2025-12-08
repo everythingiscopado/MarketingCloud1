@@ -1,0 +1,53 @@
+{
+    "id": "9cb797fe-5038-4313-91c0-228b6f229911",
+    "type": "EmailAudience",
+    "name": "demo_journey",
+    "description": "",
+    "createdDate": "2023-05-25T03:59:21.02",
+    "createdBy": 737164828,
+    "modifiedDate": "2023-05-25T04:34:31.55",
+    "modifiedBy": 737164828,
+    "mode": "Production",
+    "eventDefinitionKey": "DEAudience-2d2701aa-c3c9-b21c-ff3d-8424c52bc7a1",
+    "dataExtensionId": "bd7d35db-c7e5-ed11-ba48-f40343e7eeb0",
+    "dataExtensionName": "Import_test",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionId": "00000000-0000-0000-0000-000000000000",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "eventDefinitionId": "9cb797fe-5038-4313-91c0-228b6f229911",
+        "eventDefinitionKey": "DEAudience-2d2701aa-c3c9-b21c-ff3d-8424c52bc7a1",
+        "dataExtensionId": "bd7d35db-c7e5-ed11-ba48-f40343e7eeb0",
+        "automationId": "af0c0fcb-b8a8-4466-91ff-9761ad267363",
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {
+        "unconfigured": false
+    },
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2023-05-27T00:00:00",
+        "endDateTime": "2023-05-27T00:00:00",
+        "timeZone": "GMT Standard Time",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "isPlatformObject": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "automationId": "af0c0fcb-b8a8-4466-91ff-9761ad267363",
+    "disableDEDataLogging": false
+}
