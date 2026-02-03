@@ -1,0 +1,56 @@
+{
+    "id": 121234,
+    "customerKey": "c791433c-5671-4d3a-8d67-6188f545d48b",
+    "objectID": "6afec5e0-f6fb-4e59-938b-63a9916cf11b",
+    "assetType": {
+        "id": 28,
+        "name": "png",
+        "displayName": "Image"
+    },
+    "fileProperties": {
+        "fileName": "Copado Short Logo.png",
+        "extension": "png",
+        "fileSize": 3208,
+        "fileCreatedDate": "2026-02-02T10:07:39.7101556-06:00",
+        "width": 256,
+        "height": 256,
+        "publishedURL": "https://image.s51.sfmc-content.com/lib/fe3511737364047c731475/m/1/6afec5e0-f6fb-4e59-938b-63a9916cf11b.png"
+    },
+    "name": "Copado Short Logo.png",
+    "owner": {
+        "id": 737164827,
+        "email": "jlee@copado.com",
+        "name": "Jeremy Lee",
+        "userId": "737164827"
+    },
+    "createdDate": "2026-02-02T10:07:39.71-06:00",
+    "createdBy": {
+        "id": 737164827,
+        "email": "jlee@copado.com",
+        "name": "Jeremy Lee",
+        "userId": "737164827"
+    },
+    "modifiedDate": "2026-02-02T10:07:39.71-06:00",
+    "modifiedBy": {
+        "id": 737164827,
+        "email": "jlee@copado.com",
+        "name": "Jeremy Lee",
+        "userId": "737164827"
+    },
+    "enterpriseId": 536001498,
+    "memberId": 536001605,
+    "status": {
+        "id": 2,
+        "name": "Published"
+    },
+    "thumbnail": {
+        "thumbnailUrl": "/v1/assets/121234/thumbnail"
+    },
+    "category": {
+        "id": 67014,
+        "name": "SubFolder-Jeremy-20260202",
+        "parentId": 67013
+    },
+    "availableViews": [],
+    "modelVersion": 2
+}
