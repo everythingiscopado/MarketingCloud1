@@ -1,0 +1,13 @@
+{
+    "categoryId": 10803,
+    "parentCatId": 0,
+    "createdBy": 0,
+    "modifiedBy": 0,
+    "objectId": "934f70fc-c749-4abf-8d35-63f66794c4c4",
+    "createDate": "2022-05-03T06:52:15.64",
+    "modifiedDate": "2022-05-03T06:52:15.64",
+    "catType": "asset",
+    "name": "Content Builder",
+    "categoryDesc": "The root folder for assets",
+    "iconType": "folder"
+}
